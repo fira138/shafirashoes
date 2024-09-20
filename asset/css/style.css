@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Limelight&display=swap');
+
+.navbar-nav{
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+body h3 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 100px;
+    font-size: 80px;
+  }
+
+  /* .card { 
+   justify-content: center;
+   margin-top: 100px;
+
+  } */
+  /* .card img{
+    width: 200px;
+    height: 200px;
+  } */
+.konten {
+  width:  100%;
+}
+
+.col-9{
+  padding: 50px;
+}
+.col-9 {
+  font-family: "Jomolhari", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+}
+.row{
+  font-family: "Jomolhari", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.col-2{
+  font-family: "Jomolhari", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.row{
+  padding: 50px;
+  margin-top: 50px;
+  
+} 
+.font1{
+  margin-bottom: -50px;
+}
+
+.container-footer{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.footer{
+  background: #686D76;
+  padding: 35px 0;
+}
+
+.row-footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col{
+  width: 25%;
+  padding:  0 60px;
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: var(--white);
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: var(--biruTUA);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col p{
+  font-size: 14px;
+  text-decoration: none;
+  color: #252525;
+  display: block;
+  transition: all .3s ease;
+}
+
+.footer-col p:hover{
+  display: block;
+  color: var(--white);
+  padding-left: 6px;
+}
+
+.footer-col ul{
+  list-style: none;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #252525;
+  display: block;
+  transition: all .3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: var(--white);
+  padding-left: 6px;
+}
+
+.footer-col .media-sosial a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: rgba(255, 255, 255, .2);
+  margin: 0 10px 10 0px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  transition: all .5s ease;
+
+}
+
+.footer-col .media-sosial a:hover{
+  color: #24262b;
+  background: var(--white);
+}
